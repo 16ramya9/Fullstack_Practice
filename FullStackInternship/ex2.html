@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Document</title>
+</head>
+<body>
+<h2>
+Login</h2>
+<form>
+username<input type="text" id="uname"><br>
+password<input type="password" id="pass"><br>
+<input type="button" onClick="check()" vSalue="Sign in">
+</form>
+<script type="text/javascript">
+function check()
+{
+var username=document.getElementById("uname");
+var password=document.getElementById("pass");
+if(username.value=="ramya"&& password.value=="1609"){
+alert("Hello!!! You are successfully sined in");
+}
+else{
+alert("Invalid username and password!!");
+}
+} 
+</script>
+
+</body>
+</html>
